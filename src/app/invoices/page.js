@@ -63,7 +63,7 @@ const Invoices = () => {
                 <td>${inv.total.toFixed(2)}</td>
                 {/* <td>{inv.status}</td> */}
                 <td>
-                  <button onClick={() => alert('View Invoice')}>View</button>
+                  {/* <button onClick={() => alert('View Invoice')}>View</button> */}
                   <button onClick={() => deleteInvoice(inv.id)}>Delete</button>
                 </td>
               </tr>
