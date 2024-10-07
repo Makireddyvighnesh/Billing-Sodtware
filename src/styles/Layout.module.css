@@ -1,0 +1,60 @@
+/* src/styles/Items.module.css */
+.items {
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .addItem input {
+    padding: 8px;
+    margin-right: 10px;
+    width: 200px;
+  }
+  
+  .addItem button {
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  .searchExport {
+    display: flex;
+    align-items: center;
+  }
+  
+  .searchExport input {
+    padding: 8px;
+    margin-right: 10px;
+    width: 200px;
+  }
+  
+  .searchExport button {
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th, .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .table th {
+    background-color: #f2f2f2;
+  }
+  
+  .table button {
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    cursor: pointer;
+  }
+  

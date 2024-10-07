@@ -1,0 +1,53 @@
+/* src/styles/Dashboard.module.css */
+.dashboard {
+    padding: 20px;
+  }
+  
+  .dashboard h1 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .quickActions {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  
+  .quickActions button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .statistics {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .statBox {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .statBox h3 {
+    margin-bottom: 10px;
+  }
+  
+  .statBox p, .statBox ul {
+    margin: 0;
+  }
+  
+  .statBox ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    text-align: left;
+  }
+  

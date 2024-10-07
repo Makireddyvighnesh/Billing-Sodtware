@@ -1,0 +1,20 @@
+/* src/styles/Footer.module.css */
+.footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .links {
+    margin-top: 10px;
+  }
+  
+  .links a {
+    margin: 0 10px;
+    color: #333;
+    text-decoration: none;
+  }
+  

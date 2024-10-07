@@ -1,0 +1,79 @@
+/* src/styles/GenerateBill.module.css */
+.generateBill {
+    padding: 20px;
+  }
+  
+  .customerDetails {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto 20px auto;
+  }
+  
+  .customerDetails label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .customerDetails input {
+    padding: 8px;
+    font-size: 1rem;
+  }
+  
+  .itemsSelection {
+    margin-bottom: 20px;
+  }
+  
+  .itemsSelection table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .itemsSelection th, .itemsSelection td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .itemsSelection th {
+    background-color: #f2f2f2;
+  }
+  
+  .quantityInput {
+    width: 60px;
+    padding: 5px;
+  }
+  
+  .summary {
+    text-align: right;
+    margin-bottom: 20px;
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .actions button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  /* Print Styles */
+  @media print {
+    .actions {
+      display: none;
+    }
+  
+    /* Hide inputs and buttons */
+    /* input, button {
+      display: none;
+    } */
+  
+    .summary {
+      text-align: left;
+    }
+  }
+  
